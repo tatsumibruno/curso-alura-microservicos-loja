@@ -1,9 +1,9 @@
-package tatsumibruno.alura.microservicos.loja.application.dto;
+package tatsumibruno.alura.microservicos.loja.client.dto;
 
 import lombok.Data;
 
 @Data
 public class InfoFornecedorDTO {
-    private String id;
+    private Long id;
     private String nome;
 }
