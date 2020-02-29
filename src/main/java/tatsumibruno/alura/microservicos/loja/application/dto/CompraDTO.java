@@ -8,7 +8,7 @@ import java.util.List;
 
 @Data
 public class CompraDTO {
-    private String id;
+    private Long id;
     private List<CompraItemDTO> itens = new ArrayList<>();
     private Endereco endereco;
 }
